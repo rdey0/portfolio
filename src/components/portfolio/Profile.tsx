@@ -16,7 +16,7 @@ const socialData = socials as Socials;
 
 const MyProfile: React.FC = () => {
   return (
-    <div className="grid grid-flow-row gap-5">
+    <div className="grid grid-flow-row gap-5 auto-cols-max auto-rows-min justify-center">
       <div>
         <div className="inline-block rounded-full overflow-hidden">
           <Image
@@ -33,12 +33,14 @@ const MyProfile: React.FC = () => {
         <div className="text-lg">📍 {profileData.location} 🇺🇸</div>
         <div className="text-charcoal-medium">{profileData.description}</div>
       </div>
-      <div className="flex gap-5 items-center text-charcoal-medium">
-        <LinkButton href={socialData.resume} download="Roy Dey Resume.pdf">
-          <div className="flex gap-1">
-            <DownloadIcon /> Resume
-          </div>
-        </LinkButton>
+      <div className="flex gap-4 items-center text-charcoal-medium">
+        <div className="mr-1">
+          <LinkButton href={socialData.resume}>
+            <div className="flex gap-1">
+              <DownloadIcon /> Resume
+            </div>
+          </LinkButton>
+        </div>
         <SocialLink href={socialData.email}>
           <MailIcon />
         </SocialLink>

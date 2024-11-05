@@ -7,7 +7,7 @@ interface SocialLinkProps {
 const SocialLink: React.FC<SocialLinkProps> = ({ href, children }) => {
   return (
     <LinkButton href={href} type="borderedless">
-      <div className="hover:text-white transition-all duration-300">
+      <div className="hover:text-white transition-all duration-300 p-1 flex items-center justify-center">
         {children}
       </div>
     </LinkButton>
