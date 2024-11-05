@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        hero: ["36px", { lineHeight: "42px", fontWeight: "700" }],
+        hero2: ["32px", { lineHeight: "38px", fontWeight: "700" }],
+        title: ["20px", { lineHeight: "24px", fontWeight: "500" }],
+        subheader: ["16px", { lineHeight: "19px", fontWeight: "600" }],
+        sm: ["12px", { lineHeight: "15px", fontWeight: "400" }],
+        base: ["14px", { lineHeight: "17px", fontWeight: "400" }],
+        lg: ["16px", { lineHeight: "19px", fontWeight: "400" }],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
