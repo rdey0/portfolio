@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        ms: "0.25rem",
+      },
       fontSize: {
         hero: ["36px", { lineHeight: "42px", fontWeight: "700" }],
         hero2: ["32px", { lineHeight: "38px", fontWeight: "700" }],
