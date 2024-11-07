@@ -1,0 +1,12 @@
+{
+  "title": "Experience",
+  "description": "View my resume for more details.",
+  "src": "/files/Roy Dey Resume.pdf",
+  "experience": [
+    {
+      "title": "Full Stack Software Engineer",
+      "company": "First Drafts",
+      "period": "July 2024 - Present"
+    }
+  ]
+}

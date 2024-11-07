@@ -11,10 +11,7 @@ const TechCard: React.FC<Technology> = ({
   src,
 }) => {
   return (
-    <div
-      className="flex items-center bg-charcoal-dusk rounded-ms px-2 py-3 gap-2 cursor-default"
-      style={{ minWidth: "180px" }}
-    >
+    <div className="flex items-center bg-charcoal-dusk rounded-ms px-2 py-3 gap-2 cursor-default min-w-[180px]">
       <div
         className="flex items-center justify-center w-10 h-10 rounded-ms"
         style={{ backgroundColor: bgColor }}
@@ -31,12 +28,12 @@ const TechCard: React.FC<Technology> = ({
 
 const TechnologiesSection: React.FC = () => {
   return (
-    <div>
+    <div className="w-full">
       <SectionHeader
         title={techData.title}
         description={techData.description}
       />
-      <div className="grid grid-cols-[repeat(auto-fit,_minmax(180px,_1fr))] gap-4 min-w-0 max-w-[768px]">
+      <div className="grid grid-cols-4 gap-4 min-w-0 w-full">
         {techData.technologies.map((tech) => (
           <TechCard
             key={tech.name}
