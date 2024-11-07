@@ -3,11 +3,16 @@ import Technologies from "@/components/portfolio/Technologies";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-12 bg-charcoal-midnight min-h-screen pt-36">
-      <MyProfile />
-      <div className="w-full flex flex-col gap-5 justify-center items-center">
-        <div className="w-full max-w-96 h-96 bg-charcoal-dusk rounded-md"></div>
-        <Technologies />
+    <div className="grid grid-flow-col grid-cols-[min-content, min-content] gap-48 bg-charcoal-midnight min-h-screen ">
+      <div className="pt-32 pl-10">
+        <div className="w-fit ml-auto ">
+          <MyProfile />
+        </div>
+      </div>
+      <div className="pt-32 pr-10">
+        <div className="w-fit mr-auto ">
+          <Technologies />
+        </div>
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ const socialData = socials as Socials;
 
 const MyProfile: React.FC = () => {
   return (
-    <div className="grid grid-flow-row gap-5 auto-cols-max auto-rows-min justify-center">
+    <div className="flex flex-col gap-5 w-fit">
       <div>
         <div className="inline-block rounded-full overflow-hidden">
           <Image
