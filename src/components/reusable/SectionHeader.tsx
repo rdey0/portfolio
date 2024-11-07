@@ -8,7 +8,7 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
   description,
 }) => {
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col gap-1 mb-8">
       <div className="text-title">{title}</div>
       <div className="text-charcoal-medium">{description}</div>
     </div>

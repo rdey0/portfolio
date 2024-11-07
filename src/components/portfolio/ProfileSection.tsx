@@ -14,7 +14,7 @@ import SocialLink from "../reusable/SocialLink";
 const profileData = profile as Profile;
 const socialData = socials as Socials;
 
-const MyProfile: React.FC = () => {
+const ProfileSection: React.FC = () => {
   return (
     <div className="flex flex-col gap-5 w-fit">
       <div>
@@ -54,4 +54,4 @@ const MyProfile: React.FC = () => {
     </div>
   );
 };
-export default MyProfile;
+export default ProfileSection;

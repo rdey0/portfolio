@@ -1,0 +1,54 @@
+{
+  "title": "CurrentTechnologies",
+  "description": "These are the technologies I currently specialize in and have used professionally.",
+  "technologies": [
+    {
+      "name": "React",
+      "description": "JavaScript library",
+      "bgColor": "#004C59",
+      "src": "/logos/React.svg"
+    },
+    {
+      "name": "TypeScript",
+      "description": "Better JavaScript",
+      "bgColor": "#233A53",
+      "src": "/logos/TypeScript.svg"
+    },
+    {
+      "name": "NextJS",
+      "description": "React framework",
+      "bgColor": "#434343",
+      "src": "/logos/NextJS.svg"
+    },
+    {
+      "name": "Tailwind",
+      "description": "CSS framework",
+      "bgColor": "#185875",
+      "src": "/logos/Tailwind.svg"
+    },
+    {
+      "name": "Python",
+      "description": "High-level language",
+      "bgColor": "#244561",
+      "src": "/logos/Python.svg"
+    },
+    {
+      "name": "FastAPI",
+      "description": "Python framework",
+      "bgColor": "#0D433D",
+      "src": "/logos/FastAPI.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "description": "RDBMS",
+      "bgColor": "#234159",
+      "src": "/logos/Postgres.svg"
+    },
+    {
+      "name": "AWS",
+      "description": "Cloud platform",
+      "bgColor": "#8E5500",
+      "src": "/logos/AWS.svg"
+    }
+  ]
+}
