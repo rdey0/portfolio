@@ -29,13 +29,16 @@ const config: Config = {
         "off-white": "#EEEEEE",
         "off-black": "#191919",
         charcoal: {
+          active: "#4D4D4D",
           light: "#D3D3D3",
           medium: "#9CA3AF",
           dawn: "#282828",
           dusk: "#232323",
+          duskActive: "#2B2B2B",
           midnight: "#191919",
         },
         mint: {
+          active: "#1B3F3A",
           dark: "#153530",
           light: "#5EEAD4",
         },

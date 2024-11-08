@@ -1,12 +1,67 @@
 {
   "title": "Experience",
   "description": "View my resume for more details.",
-  "src": "/files/Roy Dey Resume.pdf",
+  "href": "/files/Roy Dey Resume.pdf",
   "experience": [
     {
+      "logoSrc": "/logos/FirstDraftsLogo.svg",
+      "bgColor": "#FFFFFF",
       "title": "Full Stack Software Engineer",
       "company": "First Drafts",
-      "period": "July 2024 - Present"
+      "period": "July 2024 - Present",
+      "content": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro.",
+        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+      ],
+      "skills": [
+        "TypeScript",
+        "React",
+        "NextJS",
+        "TailwindCSS",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "AWS"
+      ]
+    },
+    {
+      "logoSrc": "/logos/SilqLogo.svg",
+      "bgColor": "#00593A",
+      "title": "Full Stack Software Engineer",
+      "company": "Silq",
+      "period": "March 2021 - September 2022",
+      "content": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro.",
+        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+      ],
+      "skills": [
+        "ReScript",
+        "React",
+        "NextJS",
+        "TailwindCSS",
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "AWS"
+      ]
+    },
+    {
+      "logoSrc": "/logos/AggiesLogo.svg",
+      "bgColor": "#736533",
+      "title": "Student Developer",
+      "company": "University of California, Davis IET",
+      "period": "June 2019 - July 2020",
+      "content": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro.",
+        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+      ],
+      "skills": ["JavaScript", "Angular", "Bootstrap", "MySQL", "Rhino"]
     }
   ]
 }
