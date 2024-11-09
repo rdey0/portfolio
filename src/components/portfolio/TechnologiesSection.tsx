@@ -11,7 +11,7 @@ const TechCard: React.FC<Technology> = ({
   src,
 }) => {
   return (
-    <div className="flex items-center transition-all duration-300 bg-charcoal-dusk hover:bg-charcoal-duskActive border border-transparent hover:border-charcoal-active rounded-ms px-2 py-3 gap-2 cursor-default min-w-[180px]">
+    <div className="flex items-center transition-all duration-300 bg-charcoal-dusk hover:bg-charcoal-duskActive border border-transparent hover:border-charcoal-active rounded-ms px-2 py-[10px] gap-2 cursor-default min-w-[180px]">
       <div
         className="flex items-center justify-center w-10 h-10 rounded-ms"
         style={{ backgroundColor: bgColor }}
