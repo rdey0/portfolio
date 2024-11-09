@@ -10,7 +10,7 @@ export default function Home() {
           <ProfileSection />
         </div>
       </div>
-      <div className="2xl:pt-32 2xl:pr-10 2xl:overflow-auto">
+      <div className="2xl:pt-32 2xl:pr-10 2xl:overflow-y-scroll pb-32 2xl:pl-10">
         <div className="flex flex-col max-w-[768px] gap-[100px]">
           <TechnologiesSection />
           <ExperienceSection />

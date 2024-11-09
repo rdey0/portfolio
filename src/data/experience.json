@@ -5,7 +5,7 @@
   "experience": [
     {
       "logoSrc": "/logos/FirstDraftsLogo.svg",
-      "bgColor": "#FFFFFF",
+      "bgColor": "#F6F6F6",
       "title": "Full Stack Software Engineer",
       "company": "First Drafts",
       "period": "July 2024 - Present",
@@ -24,7 +24,8 @@
         "FastAPI",
         "PostgreSQL",
         "AWS"
-      ]
+      ],
+      "href": "https://firstdrafts.ai"
     },
     {
       "logoSrc": "/logos/SilqLogo.svg",
@@ -47,7 +48,8 @@
         "Django",
         "PostgreSQL",
         "AWS"
-      ]
+      ],
+      "href": "https://www.onesilq.com"
     },
     {
       "logoSrc": "/logos/AggiesLogo.svg",
@@ -61,7 +63,8 @@
         "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro.",
         "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
       ],
-      "skills": ["JavaScript", "Angular", "Bootstrap", "MySQL", "Rhino"]
+      "skills": ["JavaScript", "Angular", "Bootstrap", "MySQL", "Rhino"],
+      "href": "https://iet.ucdavis.edu"
     }
   ]
 }

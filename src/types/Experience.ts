@@ -6,6 +6,7 @@ export interface PositionExperience {
   period: string;
   content: string[];
   skills: string[];
+  href: string;
 }
 
 export interface Experience {

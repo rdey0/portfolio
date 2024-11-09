@@ -10,19 +10,24 @@ interface CompanyLogoProps {
   logoSrc: string;
   bgColor: string;
   title: string;
+  href: string;
 }
 const CompanyLogo: React.FC<CompanyLogoProps> = ({
   logoSrc,
   bgColor,
   title,
+  href,
 }) => {
   return (
-    <div
-      className="flex-none h-[50px] w-[50px] rounded-full flex items-center justify-center"
+    <a
+      className="flex-none h-[50px] w-[50px] rounded-full flex items-center justify-center hover:shadow-white-glow cursor-pointer transition-all duration-300"
       style={{ backgroundColor: bgColor }}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
     >
       <Image src={logoSrc} alt={title} height={30} width={30} />
-    </div>
+    </a>
   );
 };
 interface ExperienceItemProps extends PositionExperience {
@@ -37,23 +42,34 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
   content,
   skills,
   isLast,
+  href,
 }) => {
   return (
-    <div className="flex gap-3">
-      <div className="flex-col hidden sm:flex">
-        <CompanyLogo logoSrc={logoSrc} bgColor={bgColor} title={title} />
+    <div className="flex gap-3 overflow-visible">
+      <div className="flex-col hidden sm:flex overflow-visible">
+        <CompanyLogo
+          logoSrc={logoSrc}
+          bgColor={bgColor}
+          title={title}
+          href={href}
+        />
         <div
           className="border-l flex-grow relative left-1/2 w-0"
           style={{ borderColor: "#3C3C3C" }}
         ></div>
       </div>
       <div className={`flex flex-col gap-y-3 ${!isLast ? "mb-[50px]" : ""}`}>
-        <div className="flex gap-3">
+        <div className="flex items-center gap-3">
           <div className="sm:hidden">
-            <CompanyLogo logoSrc={logoSrc} bgColor={bgColor} title={title} />
+            <CompanyLogo
+              logoSrc={logoSrc}
+              bgColor={bgColor}
+              title={title}
+              href={href}
+            />
           </div>
           <div className="flex flex-col gap-y-1">
-            <div className="text-title">{title}</div>
+            <div className="text-subheader">{title}</div>
             <div className="text-charcoal-light">{company}</div>
             <div className="text-sm text-charcoal-medium">{period}</div>
           </div>
@@ -75,7 +91,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
 
 const ExperienceSection: React.FC = () => {
   return (
-    <div>
+    <div className="overflow-visible">
       <SectionHeader
         title={experienceData.title}
         description={experienceData.description}
