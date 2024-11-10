@@ -26,7 +26,7 @@ const CompanyLogo: React.FC<CompanyLogoProps> = ({
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Image src={logoSrc} alt={title} height={30} width={30} />
+      <Image src={logoSrc} alt={title} width={30} height={30} />
     </a>
   );
 };

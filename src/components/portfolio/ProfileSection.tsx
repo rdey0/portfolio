@@ -24,6 +24,7 @@ const ProfileSection: React.FC = () => {
             alt="Profile Picture"
             width={140}
             height={140}
+            priority
           />
         </div>
       </div>

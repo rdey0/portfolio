@@ -1,10 +1,12 @@
+import EducationSection from "@/components/portfolio/EducationSection";
 import ExperienceSection from "@/components/portfolio/ExperienceSection";
 import ProfileSection from "@/components/portfolio/ProfileSection";
+import ProjectSection from "@/components/portfolio/ProjectSection";
 import TechnologiesSection from "@/components/portfolio/TechnologiesSection";
 
 export default function Home() {
   return (
-    <div className="grid grid-flow-row grid-rows-[auto,1fr] justify-center px-10 sm:px-20 2xl:justify-normal 2xl:px-0 2xl:grid-flow-col 2xl:grid-rows-1 mx-auto 2xl:gap-40 bg-charcoal-midnight h-screen overflow-auto">
+    <div className="grid grid-flow-row grid-rows-[auto,1fr] justify-center px-5 sm:px-20 2xl:justify-normal 2xl:px-0 2xl:grid-flow-col 2xl:grid-rows-1 mx-auto 2xl:gap-40 bg-charcoal-midnight h-screen overflow-auto">
       <div className="pt-32 mb-24 2xl:pl-10">
         <div className="w-fit 2xl:ml-auto">
           <ProfileSection />
@@ -14,6 +16,8 @@ export default function Home() {
         <div className="flex flex-col max-w-[768px] gap-[100px]">
           <TechnologiesSection />
           <ExperienceSection />
+          <ProjectSection />
+          <EducationSection />
         </div>
       </div>
     </div>

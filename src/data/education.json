@@ -1,0 +1,12 @@
+{
+  "title": "Education",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "schools": [
+    {
+      "name": "University of California, Davis",
+      "degree": "B.S Computer Science",
+      "period": "2016 -2020",
+      "href": "/images/UCD.png"
+    }
+  ]
+}
