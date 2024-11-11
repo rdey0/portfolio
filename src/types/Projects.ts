@@ -1,5 +1,7 @@
 export interface Project {
   titleSrc: string;
+  titleHeight: number;
+  titleWidth: number;
   graphicSrc: string;
   githubHref: string;
   appHref: string;

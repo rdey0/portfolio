@@ -1,10 +1,12 @@
 {
   "title": "Projects",
-  "description": "These are just some of my favorites. You can see more on my Github.",
+  "description": "These are just some of my favorites. See the rest on my Github.",
   "href": "https://github.com/rdey0",
   "projects": [
     {
       "titleSrc": "/logos/Raphunt.svg",
+      "titleHeight": 18,
+      "titleWidth": 139,
       "graphicSrc": "/images/RaphuntApp.png",
       "githubHref": "https://github.com/rdey0/raphunt",
       "appHref": "https://rdey0.github.io/raphunt",
@@ -17,8 +19,10 @@
       "skills": ["JavaScript", "React", "Reddit API"]
     },
     {
-      "titleSrc": "/images/JotApp.png",
-      "graphicSrc": "/logos/Jot.svg",
+      "titleSrc": "/logos/Jot.svg",
+      "titleHeight": 45,
+      "titleWidth": 68,
+      "graphicSrc": "/images/JotApp.png",
       "githubHref": "https://github.com/Jot-Note-App/Client",
       "appHref": "https://jot-note-app.github.io/Client/",
       "content": [
