@@ -9,7 +9,13 @@ const educationData = education as Education;
 const SchoolCard: React.FC<School> = ({ name, degree, period, href }) => {
   return (
     <div className="flex gap-3 items-center">
-      <Image src={href} alt={name + " logo"} width={100} height={100} />
+      <Image
+        src={href}
+        alt={name + " logo"}
+        width={300}
+        height={300}
+        className="max-w-[100px] max-h-[100px]"
+      />
       <div className="flex flex-col gap-y-1">
         <div className="text-subheader">{name}</div>
         <div className="text-charcoal-light">{degree}</div>

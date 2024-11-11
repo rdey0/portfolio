@@ -24,9 +24,9 @@ const ProjectCard: React.FC<Project> = ({
         href={appHref}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex flex-col items-center w-full bg-charcoal-dawn transition-all duration-300 p-[20px] gap-y-3"
+        className="group flex flex-col items-center w-full bg-charcoal-dawn  transition-all duration-500 p-[20px] gap-y-3"
       >
-        <div className="shadow-xl">
+        <div>
           <Image
             src={titleSrc}
             alt={titleSrc}
@@ -34,13 +34,14 @@ const ProjectCard: React.FC<Project> = ({
             width={titleWidth}
           />
         </div>
-        <div className="rounded-ms overflow-hidden shadow-xl">
+        <div className="rounded-ms overflow-hidden shadow-2xl transition-all duration-500">
           <Image
             src={graphicSrc}
             alt={graphicSrc}
-            width={350}
-            height={180}
-            className=""
+            width={500}
+            height={300}
+            className="max-w-[350px] max-h-[180px] w-full"
+            quality={100}
           />
         </div>
       </a>
