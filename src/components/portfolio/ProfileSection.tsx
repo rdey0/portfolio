@@ -4,10 +4,10 @@ import Profile from "@/types/Profile";
 import Socials from "@/types/Socials";
 import Image from "next/image";
 import React from "react";
-import DownloadIcon from "../icons/DownloadIcon";
 import GithubIcon from "../icons/GithubIcon";
 import LinkedinIcon from "../icons/LinkedinIcon";
 import MailIcon from "../icons/MailIcon";
+import OpenFileIcon from "../icons/OpenFileIcon";
 import LinkButton from "../reusable/Button";
 import SocialLink from "../reusable/SocialLink";
 
@@ -37,8 +37,8 @@ const ProfileSection: React.FC = () => {
       <div className="flex gap-4 items-center text-charcoal-medium">
         <div className="mr-1">
           <LinkButton href={socialData.resume}>
-            <div className="flex gap-1">
-              <DownloadIcon /> Resume
+            <div className="flex gap-1 items-center">
+              <OpenFileIcon /> Resume
             </div>
           </LinkButton>
         </div>

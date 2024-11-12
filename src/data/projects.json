@@ -11,7 +11,7 @@
       "githubHref": "https://github.com/rdey0/raphunt",
       "appHref": "https://rdey0.github.io/raphunt",
       "content": [
-        "Raphunt gathers and displays links to hip-hop songs released in the past week.",
+        "Developed a web app to gather and display links to hip-hop songs released in the past week.",
         "Utilized Reddit API and RegEx to gather popularity metrics and song information.",
         "Ranked songs based on user sentiment using calculations involving post karma, time, and engagement."
       ],
@@ -25,7 +25,7 @@
       "githubHref": "https://github.com/Jot-Note-App/Client",
       "appHref": "https://jot-note-app.github.io/Client/",
       "content": [
-        "Jot is a user-friendly note-taking web app, prioritizing simplicity and ease of use.",
+        "Created a user-friendly note-taking web app that prioritizes simplicity and ease of use.",
         "Hosted dockerized backed with AWS Elastic Beanstalk and automated CI/CD pipelines with Github Actions.",
         "Leveraged Gorilla sessions for secure session management and PostgreSQL tsvector for full text search."
       ],
