@@ -11,10 +11,9 @@
       "githubHref": "https://github.com/rdey0/raphunt",
       "appHref": "https://rdey0.github.io/raphunt",
       "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-        "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro.",
-        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "Raphunt gathers and displays links to hip-hop songs released in the past week.",
+        "Utilized Reddit API and RegEx to gather popularity metrics and song information.",
+        "Ranked songs based on user sentiment using calculations involving post karma, time, and engagement."
       ],
       "skills": ["JavaScript", "React", "Reddit API"]
     },
@@ -26,10 +25,9 @@
       "githubHref": "https://github.com/Jot-Note-App/Client",
       "appHref": "https://jot-note-app.github.io/Client/",
       "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-        "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro.",
-        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "Jot is a user-friendly note-taking web app, prioritizing simplicity and ease of use.",
+        "Hosted dockerized backed with AWS Elastic Beanstalk and automated CI/CD pipelines with Github Actions.",
+        "Leveraged Gorilla sessions for secure session management and PostgreSQL tsvector for full text search."
       ],
       "skills": [
         "TypeScript",

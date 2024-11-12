@@ -10,10 +10,9 @@
       "company": "First Drafts",
       "period": "July 2024 - Present",
       "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-        "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro.",
-        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "Developed frontend web app, allowing users to draft legal documents with generative AI.",
+        "Implemented user registration flows, involving the coordination of auth, payment, and email services.",
+        "Coordinated the deployment of the alpha and beta testing stages of the app, ensuring a smooth launch."
       ],
       "skills": [
         "TypeScript",
@@ -34,10 +33,10 @@
       "company": "Silq",
       "period": "March 2021 - September 2022",
       "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-        "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro.",
-        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "Led development of purchase order system used to record purchased goods and invoices.",
+        "Developed quoting system to deliver guaranteed freighting quotes within 2 days, replacing manual labor.",
+        "Implemented frontend web portal to allow customers to track deliveries and manage their orders.",
+        "Built mobile app to facilitate QA inspections for textile factories, replacing the need for physical forms."
       ],
       "skills": [
         "ReScript",
@@ -58,10 +57,9 @@
       "company": "University of California, Davis IET",
       "period": "June 2019 - July 2020",
       "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-        "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro.",
-        "Ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "Revamped UI and added mobile support for UC Davis' software ecommerce site.",
+        "Built testing platform, allowing teaching staff to create and administer tests with automated tools.",
+        "Developed internal tools for IT staff to track software licenses, replacing manual spreadsheets."
       ],
       "skills": ["JavaScript", "Angular", "Bootstrap", "MySQL", "Rhino"],
       "href": "https://iet.ucdavis.edu"
