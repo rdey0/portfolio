@@ -24,7 +24,7 @@ const ProjectCard: React.FC<Project> = ({
         href={appHref}
         target="_blank"
         rel="noopener noreferrer"
-        className="group flex flex-col items-center w-full bg-charcoal-dawn  transition-all duration-500 p-[20px] gap-y-3"
+        className="group flex flex-col items-center w-full bg-charcoal-dawn rounded-ms transition-all duration-500 p-[20px] gap-y-3"
       >
         <div>
           <Image
@@ -34,7 +34,7 @@ const ProjectCard: React.FC<Project> = ({
             width={titleWidth}
           />
         </div>
-        <div className="rounded-ms overflow-hidden shadow-2xl transition-all duration-500">
+        <div className="rounded-ms overflow-hidden shadow-project-graphic transition-all duration-500">
           <Image
             src={graphicSrc}
             alt={graphicSrc}
