@@ -27,3 +27,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom-list-indent li::before {
+  content: "";
+  margin-left: -8px;
+}

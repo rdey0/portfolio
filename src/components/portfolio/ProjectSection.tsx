@@ -38,19 +38,19 @@ const ProjectCard: React.FC<Project> = ({
           <Image
             src={graphicSrc}
             alt={graphicSrc}
-            width={500}
-            height={300}
-            className="max-w-[350px] max-h-[180px] w-full"
+            width={1100}
+            height={800}
+            className="max-w-[400px] max-h-[230px] w-full"
             quality={100}
           />
         </div>
       </a>
-      <div className=" w-full px-[10px]">
-        <div className="mb-3">
+      <div className="w-full px-[10px]">
+        <ul className="mb-3 list-disc list-inside custom-list-indent">
           {content.map((item) => (
-            <div key={item}>• {item}</div>
+            <li key={item}>{item}</li>
           ))}
-        </div>
+        </ul>
         <div className="flex flex-wrap gap-2 mb-[20px]">
           {skills.map((skill) => (
             <Chip key={githubHref + skill} text={skill} />

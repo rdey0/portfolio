@@ -74,11 +74,11 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
             <div className="text-sm text-charcoal-medium">{period}</div>
           </div>
         </div>
-        <div className="flex flex-col">
+        <ul className="flex flex-col list-disc list-inside custom-list-indent">
           {content.map((item) => {
-            return <div key={item}>• {item}</div>;
+            return <li key={item}>{item}</li>;
           })}
-        </div>
+        </ul>
         <div className="flex flex-wrap gap-2">
           {skills.map((skill) => {
             return <Chip key={skill} text={skill} />;
