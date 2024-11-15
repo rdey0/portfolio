@@ -19,6 +19,15 @@ const ProfileSection: React.FC = () => {
     <div className="flex flex-col gap-5 w-fit">
       <div>
         <div className="inline-block rounded-full overflow-hidden">
+          {profileData.isOpenToWork && (
+            <Image
+              src={profileData.openToWorkBannerSrc}
+              alt="Open to Work Banner"
+              width={140}
+              height={140}
+              className="absolute"
+            />
+          )}
           <Image
             src={profileData.picture}
             alt="Profile Picture"

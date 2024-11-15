@@ -10,9 +10,10 @@
       "graphicSrc": "/images/RaphuntApp.png",
       "githubHref": "https://github.com/rdey0/raphunt",
       "appHref": "https://rdey0.github.io/raphunt",
+      "description": "Tired of sifting through Spotify/Apple Music just to find the latest Hip-Hop songs? Rap Hunt gathers the latest releases in the past week and displays their streaming links all in one place.",
       "content": [
-        "Developed a web app to gather and display links to hip-hop songs released in the past week.",
-        "Utilized Reddit API and RegEx to gather popularity metrics and song information.",
+        "Utilized Reddit API to gather the latest songs from the r/HipHopHeads subreddit.",
+        "Parsed post data with RegEx to gather popularity metrics and song information.",
         "Ranked songs based on user sentiment using calculations involving post karma, time, and engagement."
       ],
       "skills": ["JavaScript", "React", "Reddit API"]
@@ -24,10 +25,11 @@
       "graphicSrc": "/images/JotApp.png",
       "githubHref": "https://github.com/Jot-Note-App/Client",
       "appHref": "https://jot-note-app.github.io/Client/",
+      "description": "Sometimes a note taking app only needs to be simple and easy to use. With no feature creep or steep learning curves, Jot exists to deliver a streamlined and focused note taking experience.",
       "content": [
-        "Created a user-friendly note-taking web app that prioritizes simplicity and ease of use.",
-        "Hosted dockerized backed with AWS Elastic Beanstalk and automated CI/CD pipelines with Github Actions.",
-        "Leveraged Gorilla sessions for secure session management and PostgreSQL tsvector for full text search."
+        "Used Draft.js to facilitate rich text editing, including hyperlinks, lists, code blocks, and more.",
+        "Leveraged Gorilla sessions for secure session management and PostgreSQL tsvector for full text search.",
+        "Hosted dockerized backed with AWS Elastic Beanstalk and automated CI/CD pipelines with Github Actions."
       ],
       "skills": [
         "TypeScript",

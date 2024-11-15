@@ -15,6 +15,7 @@ const ProjectCard: React.FC<Project> = ({
   graphicSrc,
   githubHref,
   appHref,
+  description,
   content,
   skills,
 }) => {
@@ -46,11 +47,12 @@ const ProjectCard: React.FC<Project> = ({
         </div>
       </a>
       <div className="w-full px-[10px]">
-        <ul className="mb-3 list-disc list-inside custom-list-indent">
+        {/* <ul className="mb-3 list-disc list-inside custom-list-indent">
           {content.map((item) => (
             <li key={item}>{item}</li>
           ))}
-        </ul>
+        </ul> */}
+        <div className="text-charcoal-medium mb-3">{description}</div>
         <div className="flex flex-wrap gap-2 mb-[20px]">
           {skills.map((skill) => (
             <Chip key={githubHref + skill} text={skill} />

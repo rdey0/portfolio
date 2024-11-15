@@ -5,6 +5,7 @@ export interface Project {
   graphicSrc: string;
   githubHref: string;
   appHref: string;
+  description: string;
   content: string[];
   skills: string[];
 }

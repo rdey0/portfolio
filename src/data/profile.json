@@ -1,6 +1,8 @@
 {
   "picture": "/images/pf.png",
+  "openToWorkBannerSrc": "/images/OpenToWorkBanner.png",
   "title": "Full Stack Engineer",
   "location": "San Jose, California",
-  "description": "I build web apps end to end and design them to scale"
+  "description": "I build web apps end to end and design them to scale",
+  "isOpenToWork": true
 }
