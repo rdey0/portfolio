@@ -2,7 +2,7 @@ import React from "react";
 import OpenIcon from "../icons/OpenIcon";
 interface SectionHeaderProps {
   title: string;
-  description: string;
+  description?: string;
   href?: string;
 }
 const SectionHeader: React.FC<SectionHeaderProps> = ({
@@ -20,7 +20,7 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-charcoal-medium px-1 py-[1px]"
+            className="text-charcoal-medium px-1 py-[1px] hover:text-white transition-all duration-300"
           >
             <OpenIcon />
           </a>

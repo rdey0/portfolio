@@ -11,7 +11,7 @@
       "period": "July 2024 - Present",
       "content": [
         "Developed frontend web app, allowing users to draft legal documents with generative AI.",
-        "Implemented user registration flows, involving the coordination of auth, payment, and email services.",
+        "Implemented user registration flows, involving the integration of auth, payment, and email services.",
         "Coordinated the deployment of the alpha and beta testing stages of the app, ensuring a smooth launch."
       ],
       "skills": [
