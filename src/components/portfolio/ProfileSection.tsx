@@ -17,7 +17,7 @@ const socialData = socials as Socials;
 const ProfileSection: React.FC = () => {
   return (
     <div className="flex flex-col gap-5 w-fit">
-      <div>
+      <div className="relative">
         <div className="inline-block rounded-full overflow-hidden">
           {profileData.isOpenToWork && (
             <Image

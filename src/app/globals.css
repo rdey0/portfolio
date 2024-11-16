@@ -32,3 +32,12 @@ body {
   content: "";
   margin-left: -8px;
 }
+
+details {
+  overflow: hidden; /* Hide the rest of the content */
+  transition: max-height 400ms ease-out; /* Animate the change */
+}
+
+details:has(input:checked) {
+  max-height: 1000px; /* Set a max-height value enough to show all the content */
+}

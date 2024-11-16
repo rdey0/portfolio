@@ -48,6 +48,20 @@ const config: Config = {
           light: "#5EEAD4",
         },
       },
+      keyframes: {
+        expand: {
+          from: { maxHeight: "0px" },
+          to: { maxHeight: "1000px" },
+        },
+        collapse: {
+          from: { maxHeight: "1000px" },
+          to: { maxHeight: "0px" },
+        },
+      },
+      animation: {
+        expand: "expand 0.3s ease-out forwards",
+        collapse: "collapse 0.3s ease-out forwards",
+      },
     },
   },
   plugins: [],
