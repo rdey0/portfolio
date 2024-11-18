@@ -4,7 +4,6 @@ import Image from "next/image";
 import React from "react";
 import GithubIcon from "../icons/GithubIcon";
 import OpenIcon from "../icons/OpenIcon";
-import Accordian from "../reusable/Accordian";
 import Chip from "../reusable/Chip";
 import SectionHeader from "../reusable/SectionHeader";
 const projectsData = projects as Projects;
@@ -48,8 +47,9 @@ const ProjectCard: React.FC<Project> = ({
         </div>
       </a>
       <div className="w-full px-[10px]">
-        <div className="text-charcoal-medium mb-1">{description}</div>
-        <div className="mb-3">
+        <div className="text-charcoal-light mb-3">{description}</div>
+        {/* Not sure I like how this looks, so leaving it out for now */}
+        {/* <div className="mb-3">
           <Accordian label="How it works">
             <ul className="list-disc list-inside custom-list-indent">
               {content.map((item) => (
@@ -57,8 +57,7 @@ const ProjectCard: React.FC<Project> = ({
               ))}
             </ul>
           </Accordian>
-        </div>
-
+        </div> */}
         <div className="flex flex-wrap gap-2 mb-[20px]">
           {skills.map((skill) => (
             <Chip key={githubHref + skill} text={skill} />

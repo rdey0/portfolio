@@ -38,7 +38,7 @@ const Accordian: React.FC<AccordianProps> = ({ label, children }) => {
     <div>
       <button
         className={`appearance-none flex items-center gap-1 hover:text-white transition-all duration-300  ${
-          isOpen ? "text-white mt-2" : "text-charcoal-medium"
+          isOpen ? "text-white" : "text-charcoal-medium"
         }`}
         onClick={() => setIsOpen((prev) => !prev)}
       >
