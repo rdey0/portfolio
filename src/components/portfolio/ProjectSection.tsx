@@ -31,8 +31,9 @@ const ProjectCard: React.FC<Project> = ({
           <Image
             src={titleSrc}
             alt={titleSrc}
-            height={titleHeight}
-            width={titleWidth}
+            height={200}
+            width={200}
+            style={{ maxWidth: titleWidth, maxHeight: titleHeight }}
           />
         </div>
         <div className="rounded-ms overflow-hidden shadow-project-graphic transition-all duration-500">

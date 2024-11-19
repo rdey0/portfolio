@@ -74,7 +74,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
             <div className="text-sm text-charcoal-medium">{period}</div>
           </div>
         </div>
-        <ul className="flex flex-col list-disc list-inside custom-list-indent">
+        <ul className="flex flex-col list-disc list-inside custom-list-indent space-y-0.5">
           {content.map((item) => {
             return <li key={item}>{item}</li>;
           })}
