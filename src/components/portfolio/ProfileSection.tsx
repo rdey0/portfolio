@@ -19,15 +19,6 @@ const ProfileSection: React.FC = () => {
     <div className="flex flex-col gap-5 w-fit">
       <div className="relative">
         <div className="inline-block rounded-full overflow-hidden">
-          {/* {profileData.isOpenToWork && (
-            <Image
-              src={profileData.openToWorkBannerSrc}
-              alt="Open to Work Banner"
-              width={140}
-              height={140}
-              className="absolute"
-            />
-          )} */}
           <Image
             src={profileData.picture}
             alt="Profile Picture"
@@ -39,15 +30,8 @@ const ProfileSection: React.FC = () => {
       </div>
       <div className="flex flex-col gap-2">
         <div className="text-hero">Roy Dey</div>
-        <div className="text-title flex gap-2 items-center whitespace-nowrap">
-          {profileData.title}
-          {profileData.isOpenToWork && (
-            <div className="border border-mint-light text-mint-light text-sm flex items-center px-3 py-1 rounded-full cursor-default font-semibold whitespace-nowrap">
-              Open to work
-            </div>
-          )}
-        </div>
-        <div className="text-lg">📍 {profileData.location} 🇺🇸</div>
+        <div className="text-title">{profileData.title}</div>
+        <div className="text-lg">📍 {profileData.location}</div>
         <div className="text-charcoal-medium whitespace-pre-line">
           {profileData.description}
         </div>

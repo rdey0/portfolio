@@ -4,5 +4,4 @@ export default interface Profile {
   location: string;
   title: string;
   description: string;
-  isOpenToWork: boolean;
 }
