@@ -57,6 +57,26 @@ const config: Config = {
           from: { maxHeight: "1000px" },
           to: { maxHeight: "0px" },
         },
+        fadeSlideUp: {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(5rem)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        fadeSlideLeft: {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-5rem)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
       },
       animation: {
         expand: "expand 0.3s ease-out forwards",

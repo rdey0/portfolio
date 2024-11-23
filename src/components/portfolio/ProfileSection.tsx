@@ -16,7 +16,7 @@ const socialData = socials as Socials;
 
 const ProfileSection: React.FC = () => {
   return (
-    <div className="flex flex-col gap-5 w-fit">
+    <div className="flex flex-col gap-5 w-fit opacity-0 animate-[fadeSlideLeft_0.5s_ease-in-out_forwards] motion-reduce:animate-none motion-reduce:opacity-100">
       <div className="relative">
         <div className="inline-block rounded-full overflow-hidden">
           <Image

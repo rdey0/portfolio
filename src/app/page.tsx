@@ -13,7 +13,10 @@ export default function Home() {
         </div>
       </div>
       <div className="2xl:pt-32 2xl:pr-10 pb-32 2xl:pl-10 h-fit">
-        <div className="flex flex-col max-w-[768px] gap-[100px]">
+        <div
+          className="flex flex-col max-w-[768px] gap-[100px] opacity-0 animate-[fadeSlideUp_1.8s_cubic-bezier(0.16,1,0.3,1)_forwards] motion-reduce:animate-none motion-reduce:opacity-100"
+          style={{ animationDelay: "0.5s" }}
+        >
           <TechnologiesSection />
           <ExperienceSection />
           <ProjectSection />

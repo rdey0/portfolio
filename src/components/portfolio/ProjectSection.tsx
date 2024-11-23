@@ -31,9 +31,8 @@ const ProjectCard: React.FC<Project> = ({
           <Image
             src={titleSrc}
             alt={titleSrc}
-            height={200}
-            width={200}
-            style={{ maxWidth: titleWidth, maxHeight: titleHeight }}
+            height={titleHeight}
+            width={titleWidth}
           />
         </div>
         <div className="rounded-ms overflow-hidden shadow-project-graphic transition-all duration-500">
@@ -59,7 +58,7 @@ const ProjectCard: React.FC<Project> = ({
             </ul>
           </Accordian>
         </div> */}
-        <div className="flex flex-wrap gap-2 mb-[20px]">
+        <div className="flex flex-wrap gap-2 mb-3">
           {skills.map((skill) => (
             <Chip key={githubHref + skill} text={skill} />
           ))}

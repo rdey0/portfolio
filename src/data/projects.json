@@ -20,8 +20,8 @@
     },
     {
       "titleSrc": "/logos/Jot.svg",
-      "titleHeight": 45,
-      "titleWidth": 68,
+      "titleHeight": 25,
+      "titleWidth": 48,
       "graphicSrc": "/images/JotApp.png",
       "githubHref": "https://github.com/Jot-Note-App/Client",
       "appHref": "https://jot-note-app.github.io/Client/",
