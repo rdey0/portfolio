@@ -3,11 +3,6 @@ import ExperienceSection from "@/components/portfolio/ExperienceSection";
 import ProfileSection from "@/components/portfolio/ProfileSection";
 import ProjectSection from "@/components/portfolio/ProjectSection";
 import TechnologiesSection from "@/components/portfolio/TechnologiesSection";
-import { BrowserType } from "@/utils/browser";
-
-interface BrowserProps {
-  browser: BrowserType;
-}
 
 const Home: React.FC = () => {
   return (
