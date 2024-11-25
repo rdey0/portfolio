@@ -20,15 +20,3 @@ body {
     text-wrap: balance;
   }
 }
-
-.custom-list-indent li::before {
-  content: "";
-  margin-left: -8px;
-}
-
-@media (max-width: 640px) {
-  .custom-list-indent li::before {
-    content: "";
-    margin-left: -4px;
-  }
-}

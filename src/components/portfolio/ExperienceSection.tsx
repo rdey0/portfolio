@@ -2,6 +2,7 @@ import experience from "@/data/experience.json";
 import { Experience, PositionExperience } from "@/types/Experience";
 import Image from "next/image";
 import React from "react";
+import BulletedList from "../reusable/BulletedList";
 import Chip from "../reusable/Chip";
 import SectionHeader from "../reusable/SectionHeader";
 const experienceData: Experience = experience;
@@ -74,11 +75,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
             <div className="text-sm text-charcoal-medium">{period}</div>
           </div>
         </div>
-        <ul className="flex flex-col list-disc list-inside custom-list-indent space-y-0.5">
-          {content.map((item) => {
-            return <li key={item}>{item}</li>;
-          })}
-        </ul>
+        <BulletedList lines={content} />
         <div className="flex flex-wrap gap-2">
           {skills.map((skill) => {
             return <Chip key={skill} text={skill} />;
