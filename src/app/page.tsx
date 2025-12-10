@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       </div>
       <div className="2xl:pt-32 2xl:pr-10 pb-32 2xl:pl-10 h-fit">
         <div
-          className="flex flex-col max-w-[768px] gap-[100px] sm:opacity-0 sm:animate-[fadeSlideUp_1.8s_cubic-bezier(0.16,1,0.3,1)_forwards] motion-reduce:animate-none motion-reduce:opacity-100"
+          className="flex flex-col max-w-[768px] gap-[100px] sm:opacity-0 sm:animate-[fadeSlideUp_0.75s_cubic-bezier(0.25,0.1,0.25,1)_forwards] motion-reduce:animate-none motion-reduce:opacity-100"
           style={{ animationDelay: "0.5s" }}
         >
           <TechnologiesSection />
