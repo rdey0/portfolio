@@ -20,7 +20,7 @@ const ProjectCard: React.FC<Project> = ({
   skills,
 }) => {
   return (
-    <div className="flex flex-col gap-y-[20px] border border-charcoal-dawn rounded-lg px-[10px] pt-[10px] pb-[20px] w-full">
+    <div className="flex flex-col gap-y-[20px] rounded-lg w-full">
       <a
         href={appHref}
         target="_blank"
@@ -46,7 +46,7 @@ const ProjectCard: React.FC<Project> = ({
           />
         </div>
       </a>
-      <div className="w-full px-[10px]">
+      <div className="w-full">
         <div className="text-charcoal-light mb-3">{description}</div>
         {/* Not sure I like how this looks, so leaving it out for now */}
         {/* <div className="mb-3">

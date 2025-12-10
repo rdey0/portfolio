@@ -12,10 +12,12 @@ const CascadingAnimation: React.FC<CascadingAnimationProps> = ({
   let animationStyle = "";
   switch (animation) {
     case "fadeSlideUp":
-      animationStyle = "animate-[fadeSlideUp_0.4s_ease-in-out_forwards]";
+      animationStyle =
+        "animate-[fadeSlideUp_0.4s_cubic-bezier(0.25,0.1,0.25,1)_forwards]";
       break;
     case "fadeSlideLeft":
-      animationStyle = "animate-[fadeSlideLeft_0.3s_ease-in-out_forwards]";
+      animationStyle =
+        "animate-[fadeSlideLeft_0.3s_cubic-bezier(0.25,0.1,0.25,1)_forwards]";
       break;
     default:
       break;
